@@ -21,6 +21,8 @@ public void lauchbrowser() {
 	 driver=new ChromeDriver();
 	driver.get("https://trustedtools.in/field-erp/admin/auth/login");
 	System.out.println("Hi");
+	System.out.println("Hello");
+	
 }
 @DataProvider(name="logindata")
 public Object[][] logindaObjects() throws IOException {
